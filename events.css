@@ -1,0 +1,238 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 1366px;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    
+}
+.wrraper{
+    margin: auto;
+    height: 700px;
+    width: 1366px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/music.jpg);
+    flex-wrap: wrap;
+}
+.wrraper .container1{
+    width: 1366px;
+    height: 60px;
+    background-color: rgba(255, 51, 0, 0.4);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container1 h2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 2px 0px 0px 100px;
+font-family: cursive;  
+  text-align: center;
+    cursor: pointer;
+    margin-left: 90px;
+    /* animation-name: oaye;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+
+.container1 h2:hover{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 0px 0px 100px;
+font-family: cursive;    text-align: center;
+    cursor: pointer;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;}
+/* @keyframes oaye{
+
+    0%{
+        font-size: 40px;
+    }
+    25%{
+        font-size: 35px;
+    }
+    50%{
+        font-size: 40px;    }
+    75%{
+        font-size: 35px;    }
+    100%{
+        font-size: 40px;    }
+} */
+
+
+
+.container1 #ul1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 400px;
+    
+}
+
+.container1 #ul1 li{
+    list-style: none;
+justify-content: center;
+    margin-left: 15px;
+    
+}
+.container1 #ul1 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.container1 #ul1 li a:hover{
+    text-decoration: none;
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #9d1ad1,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+    width: 200px;
+    height: 80px;
+    
+    
+}
+.wrraper h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 300PX;
+    text-shadow: 2px 2PX 10PX #FF0000;
+    font-size: 46PX;
+}
+
+.wrraper .myticket{background-color:red;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+   margin-left: 560px;
+   border-radius: 40px;
+   border: none;
+  cursor: pointer;
+
+}
+.wrraper .myticket:hover{
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #9d1ad1,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+
+}
+
+.container{
+    height: 100%;
+    width: 1366px;
+    display: flex;
+     /* text-align: center; 
+    align-items: center;
+    justify-content: center;  */
+    flex-wrap: wrap;
+    margin: auto;
+   
+
+}
+
+.container #FA{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+}
+
+.container span{
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-top: 40px;
+   padding-left: 200px;
+    color: rgb(190, 199, 63);
+    text-shadow: 2px 2px 4px rgb(238, 234, 17);
+    font-size: 35px;
+    height: max-content;
+    
+    }
+
+
+#box0{
+    height: 300px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+    
+   
+#box1{
+    height: 300px;
+    width: 250px;
+    background-image: url(images/p\ 1.jpg);
+    background-size: cover;
+    margin: 50px;
+    margin-top: 90px;
+    border-radius: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#box2{
+    height: 300px;
+    width: 250px;
+    background-image: url(images/p2.jpg);
+    background-size: cover;
+    margin: 0px;
+    margin-top: 90px;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-right: 0px;
+
+}
+#box3{
+    height: 300px;
+    width: 250px;
+    background-image: url(images/p3.jpg);
+    background-size: cover;
+    margin: 0px;
+    margin-top: 90px;
+    border-radius: 50px;
+    margin-left: 30px;
+    
+
+}
+
+

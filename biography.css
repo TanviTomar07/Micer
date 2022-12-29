@@ -1,0 +1,436 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 1366px;
+    height: 100%;
+    margin: auto;
+}
+
+.wrraper{
+    margin: auto;
+    width: 1366px;
+    height: 100%;
+  background-color: black;
+ /* position: fixed; */
+    
+
+}
+
+.wrraper .container{
+    width: 1366px;
+    height: 60px;
+    background-color: rgba(255, 51, 0, 0.4);
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container h2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 2px 0px 0px 100px;
+font-family: cursive;  
+  text-align: center;
+    cursor: pointer;
+    margin-left: 90px;
+    /* animation-name: oaye;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+
+.container h2:hover{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 0px 0px 100px;
+font-family: cursive;    text-align: center;
+    cursor: pointer;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;}
+/* @keyframes oaye{
+
+    0%{
+        font-size: 40px;
+    }
+    25%{
+        font-size: 35px;
+    }
+    50%{
+        font-size: 40px;    }
+    75%{
+        font-size: 35px;    }
+    100%{
+        font-size: 40px;    }
+} */
+
+
+
+.container #ul1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 400px;
+    
+}
+
+.container #ul1 li{
+    list-style: none;
+justify-content: center;
+    margin-left: 15px;
+    
+}
+.container #ul1 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.container #ul1 li a:hover{
+    text-decoration: none;
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #9d1ad1,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+    width: 200px;
+    height: 80px;
+    
+    
+}
+
+.main h1 {
+ color: black;
+ align-items: center;
+ text-align: center;
+ padding-top: 100px;
+ font-family: Arial, Helvetica, sans-serif;
+color: #bc13fe;
+}
+
+.indian{
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+.box1{
+    height: 250px;
+width: 250px;
+background-image: url(images/Arijit\ singh\ 1.jpg);
+background-size: cover;
+margin: 80px;
+margin-top: 90px;
+border-radius: 50px;
+
+
+}
+
+
+
+
+.box2{
+    height: 400px;
+width: 400px;
+align-items: center;
+text-align: center;
+margin : 30px;
+}
+.box2 h1{
+    color: yellow;
+    padding: 10px;
+}
+
+.box2 p{
+    color: white;
+    padding: 5px 10px 0 0px ;
+    justify-content: center;
+}
+.box2 button{
+    height: 50px;
+    width: 170px;
+ background-color: blue;
+ color: white;
+ font-size: 16px;
+    border-radius: 10px;
+font-weight: bold;
+    
+}
+.box2 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box2 button:hover{
+   font-size: 20px;
+    background-color:red;
+    color: white;
+    font-weight: bold
+
+}
+.indian2{
+    margin-top: -200px;
+    width: 90%;
+    height: 600px;
+display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-left: 70px;
+}
+.box3{
+    height: 250px;
+width: 250px;
+background-image: url(images/sonunigam\ 1.webp);
+background-size: cover;
+margin: 80px;
+margin-top: 90px;
+border-radius: 50px;
+
+}
+
+.box4{
+    height: 400px;
+width: 400px;
+align-items: center;
+text-align: center;
+margin : 30px;
+}
+.box4 h1{
+    color: yellow;
+    padding: 10px;
+}
+
+.box4 p{
+    color: white;
+    padding: 5px 10px 0 0px ;
+    justify-content: center;
+}
+
+.box4 button{
+    height: 50px;
+    width: 170px;
+ background-color: blue;
+ color: white;
+ font-size: 16px;
+    border-radius: 10px;
+font-weight: bold;
+    
+}
+.box4 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box4 button:hover{
+   font-size: 20px;
+    background-color:red;
+    color: white;
+    font-weight: bold
+
+}
+
+.indian3{
+    margin-top: -200px;
+    width: 90%;
+    height: 600px;
+display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-left: 70px;
+}
+.box5{
+    height: 250px;
+width: 250px;
+background-image: url(images/k_sanu.jpg);
+background-size: cover;
+margin: 80px;
+margin-top: 90px;
+border-radius: 50px;
+
+}
+
+.box6{
+    height: 400px;
+width: 400px;
+align-items: center;
+text-align: center;
+margin : 30px;
+}
+.box6 h1{
+    color: yellow;
+    padding: 10px;
+}
+
+.box6 p{
+    color: white;
+    padding: 5px 10px 0 0px ;
+    justify-content: center;
+}
+
+.box6 button{
+    height: 50px;
+    width: 170px;
+ background-color: blue;
+ color: white;
+ font-size: 16px;
+    border-radius: 10px;
+font-weight: bold;
+    
+}
+.box6 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box2 button:hover{
+   font-size: 20px;
+    background-color:red;
+    color: white;
+    font-weight: bold
+
+}
+.indian4{
+    margin-top: -200px;
+    width: 90%;
+    height: 600px;
+display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-left: 70px;
+}
+.box7{
+    height: 250px;
+width: 250px;
+background-image: url(images/jubin.jpg);
+background-size: cover;
+margin: 80px;
+margin-top: 90px;
+border-radius: 50px;
+
+}
+
+.box8{
+    height: 400px;
+width: 400px;
+align-items: center;
+text-align: center;
+margin : 30px;
+}
+.box8 h1{
+    color: yellow;
+    padding: 10px;
+}
+
+.box8 p{
+    color: white;
+    padding: 5px 10px 0 0px ;
+    justify-content: center;
+}
+
+.box8 button{
+    height: 50px;
+    width: 170px;
+ background-color: blue;
+ color: white;
+ font-size: 16px;
+    border-radius: 10px;
+font-weight: bold;
+    
+}
+.box8 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box8 button:hover{
+   font-size: 20px;
+    background-color:red;
+    color: white;
+    font-weight: bold
+
+}.indian5{
+    margin-top: -200px;
+    width: 90%;
+    height: 600px;
+display: flex;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-left: 70px;
+}
+.box9{
+    height: 250px;
+width: 250px;
+background-image: url(images/Armaan-Malik-1.jpg);
+background-size: cover;
+margin: 80px;
+margin-top: 90px;
+border-radius: 50px;
+
+}
+
+.box10{
+    height: 400px;
+width: 400px;
+align-items: center;
+text-align: center;
+margin : 30px;
+}
+.box10 h1{
+    color: yellow;
+    padding: 10px;
+}
+
+.box10 p{
+    color: white;
+    padding: 5px 10px 0 0px ;
+    justify-content: center;
+}
+
+.box10 button{
+    height: 50px;
+    width: 170px;
+ background-color: blue;
+ color: white;
+ font-size: 16px;
+    border-radius: 10px;
+font-weight: bold;
+    
+}
+.box10 button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box10 button:hover{
+   font-size: 20px;
+    background-color:red;
+    color: white;
+    font-weight: bold
+
+}
